@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Berita terkini</h1>
+        <select aria-label="boom" id="themeSelector">
+            <option value="light">Terang</option>
+            <option value="dark">Gelap</option>
+        </select>
+    </header>
+
+    <main>
+        <section>
+            <label for="filterDate">Filter Tanggal:</label>
+            <input type="date" id="filterDate">
+        </section>
+        <div id="postContainer"></div>
+        <div id="loading"></div>
+    </main>
+</body>
+</html>
